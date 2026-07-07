@@ -43,4 +43,33 @@ const student = {
 const todayDate = new Date();
 console.log('objects:::', typeof student, typeof todayDate);
 
+// NaN = Not A Number 
+
+const checkValue = 50 / "apple"
+console.log('not a number ::::', checkValue);
+
+//  type coersion
+
+const typeCoersion = '5' + '2'; console.log('Data typeCoersion::: ',typeCoersion);
+
+// Type Conversion 
+const strToNumber = "John";
+console.log('string to number::', typeof Number(strToNumber));
+
+/* 
+    string 33 to number = comes type of number
+*/
+const findBoolean = 'john';
+console.log(typeof Boolean(findBoolean));
+
+// Type Destructuring 
+const employee = 
+{
+    name: 'john',
+    age: 30,
+    phone: '01973879879'
+}
+const {name, age, location = 'dhaka'} = employee;
+console.log(name, age, location);
+
 
