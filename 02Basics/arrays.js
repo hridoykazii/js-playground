@@ -49,10 +49,29 @@
 // console.log(cars.length);
 
 // Join Array
-const cars = ['saab', 'volvo', 'bmw'];
-const joinCars = cars.join('-');
-console.log(joinCars);
-console.log('typeof', typeof(joinCars));
+// const cars = ['saab', 'volvo', 'bmw'];
+// const joinCars = cars.join('-');
+// console.log(joinCars);
+// console.log('typeof', typeof(joinCars));
+
+// ** flatting array - multidimentional array k ekta array te convert kore flat method diye
+// const multidimentionalArrays = [[1,2,[4,3]]];
+// console.log(multidimentionalArrays.flat(100));
+// flatMap method () - 
+// const myArray = [1,2,3,4];
+// const newArray= myArray.flatMap(x => [x, x*10]);
+// console.log(newArray);
+// const myName = ["my name is",['hridoy']];
+// const myFlatName = myName.flat();
+// const newNameArray = myFlatName.flatMap(x=> x.split(" "));
+// console.log(newNameArray);
+
+// **** Splice 
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const newFruits = fruits.splice(0,3)
+console.log(newFruits);
+
 
 
 
