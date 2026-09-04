@@ -68,12 +68,18 @@
 
 // **** Splice 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const newFruits = fruits.splice(0,3)
-console.log(newFruits);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const newFruits = fruits.splice(1,1);
+// console.log(newFruits);
+// ***** toSplice()
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const newFruits = fruits.toSpliced(0,1);
+// console.log(newFruits);
 
-
-
+// **** slice()
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const newFruits = fruits.slice(0,2);
+// console.log(newFruits);
 
 
 
